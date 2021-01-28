@@ -1,5 +1,5 @@
 {
-  "name": "vue-todo-app",
+  "name": "github-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "material-components-web": "^9.0.0",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
     "vue": "^3.0.0"
   },
   "devDependencies": {
