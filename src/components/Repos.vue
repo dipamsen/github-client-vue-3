@@ -48,7 +48,8 @@ export default {
   setup() {
     const user = ref({});
     const repos = ref([]);
-    let userName = "processing";
+    let userName =
+      new URLSearchParams(location.search).get("username") || "processing";
     async function getRepos() {
       const userUrl = `https://api.github.com/users/${userName}`;
 
